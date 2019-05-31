@@ -25,7 +25,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
-// *****************************************************************************
+// ****************************************************************************
 
 #include <novatel_gps_driver/novatel_message_extractor.h>
 
@@ -52,7 +52,7 @@ namespace novatel_gps_driver
   const std::string NovatelMessageExtractor::NOVATEL_ASCII_FLAGS = "$#";
   const std::string NovatelMessageExtractor::NOVATEL_BINARY_SYNC_BYTES = "\xAA\x44\x12";
   const std::string NovatelMessageExtractor::NOVATEL_ENDLINE = "\r\n";
-  
+
   uint32_t NovatelMessageExtractor::CRC32Value(int32_t i)
   {
     int32_t j;

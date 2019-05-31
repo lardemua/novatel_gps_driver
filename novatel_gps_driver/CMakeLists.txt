@@ -50,7 +50,7 @@ add_library(${PROJECT_NAME}
   src/novatel_gps.cpp
   src/novatel_message_extractor.cpp
   src/parsers/bestpos.cpp
-  src/parsers/bestutm.cpp
+   src/parsers/bestgnsspos.cpp
   src/parsers/bestvel.cpp
   src/parsers/corrimudata.cpp
   src/parsers/gpgga.cpp
@@ -60,7 +60,6 @@ add_library(${PROJECT_NAME}
   src/parsers/header.cpp
   src/parsers/inscov.cpp
   src/parsers/inspva.cpp
-  src/parsers/inspvax.cpp
   src/parsers/insstdev.cpp
   src/parsers/parsing_utils.cpp
   src/parsers/range.cpp
